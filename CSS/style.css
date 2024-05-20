@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#FFF4DF;
+}
+
+.logo img{
+    width: 406px;
+    height: 50.94px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+main .container1{
+    width: 1009px;
+    height: 521px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+main .container1 img{
+    object-fit: cover;
+    padding: 0px 5px;
+}
+
+main .container1 .img1{
+    height: 61px;
+}
+
+
+main .container1 .img2{
+    height: 74px;
+   }
+
+main .container1 .img3{
+    height: 74px;
+}
+
+main .container1 .img4{
+    height: 74px;
+}
+
+main .container1 .img5{
+    height: 74px;
+}
+
+main .container1 .img6{
+    height: 74px;
+}
+
+main .container1 .img7{
+    height: 74px;
+   }
+
+main .container1 .img8{
+    height: 74px;
+}
+
+main .splash_content{
+    height: 44px;
+    font-family: Lexend;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: left;
+    
+}
+
+/* respinsive */
+
+/* for min-sreen tablets  */
+
+@media screen and (max-width:1275px) {
+
+    main .container1{
+        width:70%;
+        height: 400px;
+        margin-top: 70px;
+    }
+    
+    main .splash_content{
+        height: 44px;
+        font-size:30px;  
+    }
+    .img8{
+        width: 50px;
+    }    
+    
+    main .container1 .img1,main .container1 .img2,main .container1 .img3,main .container1 .img4,main .container1 .img5,main .container1 .img6,main .container1 .img7,main .container1 .img8{
+       height: 50px;
+    }
+}
